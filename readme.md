@@ -48,7 +48,7 @@ https://app.subsquid.io/profile/gateways/add?testnet
 
 👉 Yukarıdaki adrese peer id nizi girin register yapın. public kapalı kalsın.
 
-👉 Açtığınız gateaway e 10 token stake edin. 15 dk kadar bekleyin.
+👉 Açtığınız gateaway e 10 token stake edin. 15 dk kadar bekleyin. docker ps dediğinizde docker çalışıor olmalı başındaki docker-id dir. docker logs -f docker-id yazdığınızda loglarda CU allocted kısmında bikye görünce alttan devam.
 ```
 screen -S sq
 ```
