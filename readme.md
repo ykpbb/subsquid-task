@@ -1,4 +1,7 @@
-sırasıyla yükleyelim
+![image](https://github.com/molla202/subsquid-task/assets/91562185/02086ae2-fa38-468c-b514-fbf6e1bf9259)
+
+
+👉 Sırasıyla yükleyelim
 ```
 sudo apt update && sudo apt upgrade -y && sudo apt install nodejs && sudo apt install git
 ```
@@ -34,18 +37,18 @@ cd uniform-load-squid
 npm ci
 ```
 
-siteden keyi indirin ve ./query-gateway/keys  içine atın
+👉 Siteden keyi indirin ve ./query-gateway/keys  içine atın
 
-peer id nizi aşağdaki komutla alın
+👉 Peer id nizi aşağdaki komutla alın
 ```
 sqd get-peer-id
 ```
 
 https://app.subsquid.io/profile/gateways/add?testnet
 
-yukarıdaki adrese peer id nizi girin register yapın. public kapalı kalsın.
+👉 Yukarıdaki adrese peer id nizi girin register yapın. public kapalı kalsın.
 
-açtığınız gateaway e 10 token stake edin. 15 dk kadar bekleyin.
+👉 Açtığınız gateaway e 10 token stake edin. 15 dk kadar bekleyin.
 ```
 screen -S sq
 ```
